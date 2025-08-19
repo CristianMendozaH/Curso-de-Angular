@@ -1,9 +1,17 @@
 
 
-let name = 'Cristian';
+let name: string = 'Cristian';
+let hpPoints: number | string = 100;
+const isAlive: boolean = true;
 
-name = 123;
 
+hpPoints = 'Hola Mundo';
+
+console.log(({
+    name,
+    hpPoints,
+    isAlive 
+}))
 
 
 
